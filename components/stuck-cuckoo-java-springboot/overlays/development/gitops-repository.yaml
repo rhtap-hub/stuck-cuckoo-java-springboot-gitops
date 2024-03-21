@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: stuck-cuckoo-java-springboot-gitops-repository
+spec:
+  url: https://github.com/rhtap-hub/stuck-cuckoo-java-springboot-gitops
